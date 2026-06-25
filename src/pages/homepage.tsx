@@ -4,7 +4,7 @@ import "./styles/homePage.css"
 export default function HomePage () {
     return (
         <main className="home-page">
-            <Link to="/client-system" className="brochure-card">
+            <Link to="/scope-three" className="brochure-card">
                 <div className="brochure-card-image">
                     {/* Picture area: add the Client Systems image here above the text. */}
                 </div>
@@ -14,23 +14,33 @@ export default function HomePage () {
                 </div>
             </Link>
 
-            <Link to="/supplier-system" className="brochure-card">
+            <Link to="/solution" className="brochure-card">
                 <div className="brochure-card-image">
                     {/* Picture area: add the Supplier Systems image here above the text. */}
                 </div>
                 <div className="brochure-card-content">
-                    <h1>Supplier Systems</h1>
-                    <p>Walk through how the Palm tree project allows suppliers and contractors to report their emission production directly to clients.</p>
+                    <h1>Our Solution</h1>
+                    <p>What is our solution and how does it help</p>
                 </div>
             </Link>
 
-            <Link to="/backend" className="brochure-card">
+            <Link to="/implementation" className="brochure-card">
                 <div className="brochure-card-image">
                     {/* Picture area: add the Backend Logic image here above the text. */}
                 </div>
                 <div className="brochure-card-content">
-                    <h1>Backend Logic</h1>
-                    <p>Look under the hood at how the Palm tree project calculates emissions accurately.</p>
+                    <h1>Implementation</h1>
+                    <p>How will we implement our solution</p>
+                </div>
+            </Link>
+
+            <Link to="/application" className="brochure-card">
+                <div className="brochure-card-image">
+                    {/* Picture area: add the Backend Logic image here above the text. */}
+                </div>
+                <div className="brochure-card-content">
+                    <h1>Application</h1>
+                    <p>What future applications are possible</p>
                 </div>
             </Link>
         </main>
