@@ -9,8 +9,8 @@ export default function HomePage () {
                     {/* Picture area: add the Client Systems image here above the text. */}
                 </div>
                 <div className="brochure-card-content">
-                    <h1>Client Systems</h1>
-                    <p>Explore how the Palm tree project helps clients track their upstream Scope 3 emissions.</p>
+                    <h1>Scope 3 Emissions</h1>
+                    <p>What exactly are scope 3 emissions and why are they so hard to track</p>
                 </div>
             </Link>
 

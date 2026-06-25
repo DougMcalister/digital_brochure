@@ -1,9 +1,9 @@
 import { Link } from "react-router"
-import "./styles/clientSystems.css"
+import "./styles/implementation.css"
 
-export default function ClientSystemPage () {
+export default function ImplementationPage () {
     return (
-        <main className="client-system">
+        <main className="implementation">
             <Link to="/" className="back-link">
                 Back
             </Link>

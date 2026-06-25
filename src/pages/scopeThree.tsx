@@ -1,9 +1,9 @@
 import { Link } from "react-router"
-import "./styles/supplierSystem.css"
+import "./styles/scopeThree.css"
 
-export default function SupplierSystemPage () {
+export default function ScopeThreePage () {
     return (
-        <main className="supplier-system">
+        <main className="scope-three">
             <Link to="/" className="back-link">
                 Back
             </Link>
@@ -14,7 +14,7 @@ export default function SupplierSystemPage () {
 
             <section className="content-grid">
                 <article className="info-card">
-                    
+
                 </article>
             </section>
         </main>

@@ -1,9 +1,9 @@
 import { Link } from "react-router"
-import "./styles/backend.css"
+import "./styles/scopeThree.css"
 
-export default function BackendPage () {
+export default function ApplicationsPage () {
     return (
-        <main className="backend-system">
+        <main className="application">
             <Link to="/" className="back-link">
                 Back
             </Link>
@@ -14,7 +14,7 @@ export default function BackendPage () {
 
             <section className="content-grid">
                 <article className="info-card">
-                    
+
                 </article>
             </section>
         </main>

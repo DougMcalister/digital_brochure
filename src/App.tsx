@@ -1,17 +1,19 @@
 import { Routes, Route } from "react-router";
 
 import HomePage from "./pages/homepage";
-import ClientSystemPage from "./pages/clientSystems";
-import SupplierSystemPage from "./pages/supplierSystem";
-import BackendPage from "./pages/backend";
+import ScopeThreePage from "./pages/scopeThree";
+import SolutionPage from "./pages/solution";
+import ImplementationPage from "./pages/implementation";
+import ApplicationsPage from "./pages/applications";
 
 export default function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/client-system" element={<ClientSystemPage />} />
-      <Route path="/supplier-system" element={<SupplierSystemPage />} />
-      <Route path="/backend" element={<BackendPage />} />
+      <Route path="/scope-three" element={<ScopeThreePage />} />
+      <Route path="/solution" element={<SolutionPage />} />
+      <Route path="/implementation" element={<ImplementationPage />} />
+      <Route path="/application" element={<ApplicationsPage />} />
     </Routes>
   );
 }
