@@ -9,7 +9,7 @@ export default function ImplementationPage () {
             </Link>
 
             <section className="hero">
-
+                <h1>Solution Implementation</h1>
             </section>
 
             <section className="content-grid">

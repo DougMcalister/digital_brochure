@@ -9,7 +9,7 @@ export default function ApplicationsPage () {
             </Link>
 
             <section className="hero">
-
+                <h1>Future Applications</h1>
             </section>
 
             <section className="content-grid">
