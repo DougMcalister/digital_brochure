@@ -5,9 +5,11 @@ import ScopeThreePage from "./pages/scopeThree";
 import SolutionPage from "./pages/solution";
 import ImplementationPage from "./pages/implementation";
 import ApplicationsPage from "./pages/applications";
+//import icon from "/assets/icons/logo.png"
 
 export default function App() {
   return (
+    
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/scope-three" element={<ScopeThreePage />} />

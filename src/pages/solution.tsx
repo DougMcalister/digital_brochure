@@ -16,13 +16,66 @@ export default function SolutionPage () {
                 <article className="info-card">
                     Our proposed solution is an application that, at it's core, functions as an environmental<br/>
                     reporting software. This is paired with a procurement focused local law that enforces suppliers<br/>
-                    meet the City of Melvilles net zero goals.
-                    <br/>
+                    meet the City of Melvilles net zero goals.<br/>
                     <h2>Client Service</h2>
-
+                    The client portal allows for the City of Melville to view emissions reports uploaded by suppliers<br/>
+                    and collects cumulative data to present the total scope three emissions produced.<br/>
+                    This data is displayed in the following way:<br/>
+                    <ul>
+                        <li>
+                            Supplier List: Logging into the platform the City of Melville can view all of their<br/>
+                            suppliers as a list including a description (business name, industry,<br/>
+                            contact information, etc.) and a summary of their contribution to the city's emissions<br/>
+                        </li>
+                        <li>
+                            Supplier Ranking: Because finding the cleanest supplier can be intensive especially<br/>
+                            across hundreds of entries, The Palmtree Portal will feature a ranking system based on<br/>
+                            the suppliers average emissions in kilograms of CO<sub>2</sub> per dollar spent on<br/>
+                            their jobs (kg/$). The suppliers with the lowest score will be ranked highest and displayed<br/>
+                            more favourably.
+                        </li>
+                        <li>
+                            Client Summary: The core piece of the City of Melville's client portal is the summary<br/>
+                            dashboard. This collates reported supplier data over a financial year. From here they<br/>
+                            can view previous years, export emissions reports, and compare year on year performance.
+                        </li>
+                    </ul>
                     <br/>
                     <h2>Supplier Service</h2>
-
+                        The supplier portal is the driver behind The Palmtree Portals data collection and processing<br/>
+                        engine. This takes the administrative overhead of calculating emissions off of the supplier<br/>
+                        and allows them to complete their reporting using information that they already have on hand.<br/>
+                        The information is provided through:
+                        <ul>
+                            <li>
+                                Onboarding: Suppliers follow an intuitive onboarding process where they can fill in<br/>
+                                their standard business information, emission reduction techniques, and inventory.<br/>
+                            </li>
+                            <li>
+                                Activity Logging: Suppliers log their activity on a job-by-job basis so that only<br/>
+                                the data specific to the City of Melville is logged for their jobs. This occurs through<br/>
+                                entering information such as transportation, equipment usage, waste generated, and <br/>
+                                utility usage. 
+                            </li>
+                            <li>
+                                Emissions Invoicing: Once emission producing activity is logged the supplier can produce<br/>
+                                an emissions invoice which can be passed directly into technology one to streamline the<br/>
+                                reporting process.
+                            </li>
+                            <li>
+                                Inventory Management: Suppliers can see an overview of their machinery and equipment with<br/>
+                                an emission breakdown of the item including the activity based emissions output, emission<br/>
+                                reduction technology, and total emissions produced.
+                            </li>
+                        </ul>
+                    <br/>
+                    <h2>Data Privacy</h2>
+                        Considering the Palmtree Portals functionality the question remains "What is stopping my clients<br/>
+                        or suppliers from seeing my job postings or equipment"?<br/>
+                        The answer is separation.<br/>
+                        By separating the supplier database and the client databse none of either parties information is<br/>
+                        accessible unless they choose for it to be.<br/>
+                        The separation also allows for the emissions calculations to have an extra layer of integrity where<br/>
                     <br/>
                     <h2>Local Procurement Law</h2>
 
