@@ -1,10 +1,13 @@
 import { Link } from "react-router"
+import Header from "../components/header"
 import "./styles/scopeThree.css"
 import scope3Infographic from "../assets/diagrams/Scope_3_infographic.webp";
 
 export default function ScopeThreePage () {
     return (
         <main className="scope-three">
+            <Header />
+
             <Link to="/" className="back-link">
                 Back
             </Link>
@@ -64,6 +67,14 @@ export default function ScopeThreePage () {
                     may better determine their total carbon footprint and work more diligently to achieving net zero.
                 </article>
             </section>
+            <nav className="page-nav" aria-label="Page navigation">
+                <Link to="/" className="page-nav-link page-nav-link-left">
+                    Back
+                </Link>
+                <Link to="/solution" className="page-nav-link page-nav-link-right">
+                    Solution
+                </Link>
+            </nav>
         </main>
     );
 }

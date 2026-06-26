@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 320px;
+    background: #263238;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background: #263238;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+a {
+    font: inherit;
+}
+
+.site-header {
+    width: 100%;
+    min-height: 92px;
+    padding: 18px 24px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #66bb6a;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+.site-header-brand {
+    display: inline-grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: 14px;
+}
+
+.site-header-logo {
+    width: clamp(44px, 10vw, 64px);
+    height: clamp(44px, 10vw, 64px);
+    object-fit: contain;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: clamp(1.65rem, 4vw, 2.8rem);
+    line-height: 1.05;
+    letter-spacing: 0;
+}
+
+.scope-three,
+.solution,
+.implementation,
+.application {
+    position: relative;
+    min-height: 100vh;
+    padding: 0 25px 128px;
+    background: #263238;
+    color: #000000;
+}
+
+.hero {
+    width: min(100%, 980px);
+    margin: 92px auto 0;
+    padding: 28px 28px 0;
+    background: #66bb6a;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    line-height: 1.1;
+    letter-spacing: 0;
+}
+
+.content-grid {
+    width: min(100%, 980px);
+    margin: 0 auto;
+    padding: 26px 28px 36px;
+    background: #66bb6a;
+    text-align: center;
+}
+
+.info-card {
+    max-width: 860px;
+    margin: 0 auto;
+    color: #000000;
+    font-size: clamp(1rem, 2vw, 1.12rem);
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+}
+
+.info-card h2 {
+    margin: 28px 0 10px;
+    font-size: clamp(1.35rem, 3vw, 2rem);
+    line-height: 1.15;
+    letter-spacing: 0;
+}
+
+.info-card ul {
+    width: min(100%, 760px);
+    margin: 16px auto;
+    padding-left: 1.2rem;
+    text-align: left;
+}
+
+.info-card li + li {
+    margin-top: 12px;
+}
+
+.info-card img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.infographic {
+    width: min(100%, 760px);
+    margin: 28px auto;
+}
+
+.infographic figcaption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
+.back-link,
+.page-nav-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 112px;
+    min-height: 44px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    background: #00897b;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.24);
+    transition: background-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+}
+
+.back-link:hover,
+.back-link:focus-visible,
+.page-nav-link:hover,
+.page-nav-link:focus-visible {
+    background: #00796b;
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.28);
+}
+
+.back-link:focus-visible,
+.page-nav-link:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 3px;
+}
+
+.back-link {
+    position: absolute;
+    top: 127px;
+    left: 25px;
+}
+
+.page-nav {
+    position: absolute;
+    right: 25px;
+    bottom: 50px;
+    left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    pointer-events: none;
+}
+
+.page-nav-link {
+    pointer-events: auto;
+}
+
+@media (max-width: 640px) {
+    .site-header {
+        min-height: 82px;
+        padding: 16px 14px 18px;
+    }
+
+    .site-header-brand {
+        gap: 10px;
+    }
+
+    .scope-three,
+    .solution,
+    .implementation,
+    .application {
+        padding: 0 14px 132px;
+    }
+
+    .back-link {
+        top: 107px;
+        left: 25px;
+        min-width: 96px;
+    }
+
+    .hero {
+        margin-top: 88px;
+        padding: 24px 18px 0;
+    }
+
+    .content-grid {
+        padding: 22px 18px 30px;
+    }
+
+    .info-card br {
+        display: none;
+    }
+
+    .page-nav {
+        right: 25px;
+        bottom: 50px;
+        left: 25px;
+    }
+
+    .page-nav-link {
+        min-width: 0;
+        max-width: calc(50% - 8px);
+        padding: 10px 12px;
+        overflow-wrap: anywhere;
+    }
+}
