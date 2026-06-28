@@ -5,8 +5,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #263238;
-    color: #000000;
+    background: #bddce8;
+    color: #f2f4f3;
 }
 
 .home-frame {
@@ -16,8 +16,9 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 22px;
-    background: #66bb6a;
+    background: #2f6f3e;
     text-align: center;
+    border-radius: 20px;
 }
 
 .brochure-card {
@@ -28,8 +29,8 @@
     overflow: hidden;
     border: 1px solid rgba(38, 50, 56, 0.18);
     border-radius: 8px;
-    background: #eef5ee;
-    color: #000000;
+    background: #3f874a;
+    color: #f2f4f3;
     text-decoration: none;
     box-shadow: 0 14px 34px rgba(0, 0, 0, 0.16);
     transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
@@ -49,7 +50,7 @@
 
 .brochure-card-image {
     min-height: 132px;
-    background: linear-gradient(135deg, rgba(0, 137, 123, 0.18), rgba(102, 187, 106, 0.2));
+    background: linear-gradient(135deg, rgba(216, 237, 247, 0.28), rgba(47, 111, 62, 0.45));
     border-bottom: 1px solid rgba(38, 50, 56, 0.14);
 }
 
@@ -62,11 +63,14 @@
     font-size: clamp(1.45rem, 3vw, 2.1rem);
     line-height: 1.05;
     letter-spacing: 0;
+    text-decoration: underline;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.16em;
 }
 
 .brochure-card p {
     margin: 0;
-    color: #000000;
+    color: #f2f4f3;
     font-size: 1.05rem;
     line-height: 1.55;
 }

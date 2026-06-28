@@ -7,6 +7,17 @@ export default function HomePage () {
         <main className="home-page">
             <Header />
 
+            <section className="content-grid">
+                <article className="info-card">
+                    <b>The Problem</b><br/>
+                    After declaring a climate emergency in June 2021 the City of<br/>
+                    Melville began working towards their climate initiative of net<br/>
+                    zero for the organisation by 2030 and net zero across the city<br/>
+                    and community by 2050.<br/>
+                    
+                </article>
+            </section>
+
             <section className="home-frame" aria-label="Brochure pages">
                 <Link to="/scope-three" className="brochure-card">
                     <div className="brochure-card-image">

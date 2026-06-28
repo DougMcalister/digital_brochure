@@ -4,15 +4,15 @@
 
 html {
     min-width: 320px;
-    background: #263238;
+    background: #bddce8;
 }
 
 body {
     margin: 0;
     min-width: 320px;
     min-height: 100vh;
-    background: #263238;
-    color: #000000;
+    background: #bddce8;
+    color: #f2f4f3;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -28,10 +28,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #66bb6a;
+    background: #2f6f3e;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    color: #000000;
+    color: #f2f4f3;
     text-align: center;
 }
 
@@ -53,6 +53,9 @@ a {
     font-size: clamp(1.65rem, 4vw, 2.8rem);
     line-height: 1.05;
     letter-spacing: 0;
+    text-decoration: underline;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.16em;
 }
 
 .scope-three,
@@ -62,16 +65,18 @@ a {
     position: relative;
     min-height: 100vh;
     padding: 0 25px 128px;
-    background: #263238;
-    color: #000000;
+    background: #bddce8;
+    color: #f2f4f3;
 }
 
 .hero {
-    width: min(100%, 980px);
+    width: min(100%, 1120px);
     margin: 92px auto 0;
     padding: 28px 28px 0;
-    background: #66bb6a;
+    background: #2f6f3e;
     text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .hero h1 {
@@ -79,22 +84,29 @@ a {
     font-size: clamp(1.8rem, 4vw, 3rem);
     line-height: 1.1;
     letter-spacing: 0;
+    text-decoration: underline;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.16em;
 }
 
 .content-grid {
-    width: min(100%, 980px);
+    width: min(100%, 1120px);
     margin: 0 auto;
     padding: 26px 28px 36px;
-    background: #66bb6a;
-    text-align: center;
+    background: #2f6f3e;
+    text-align: left;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .info-card {
-    max-width: 860px;
+    width: 100%;
+    max-width: none;
     margin: 0 auto;
-    color: #000000;
+    color: #f2f4f3;
     font-size: clamp(1rem, 2vw, 1.12rem);
     line-height: 1.65;
+    text-align: left;
     overflow-wrap: anywhere;
 }
 
@@ -103,13 +115,21 @@ a {
     font-size: clamp(1.35rem, 3vw, 2rem);
     line-height: 1.15;
     letter-spacing: 0;
+    text-decoration: underline;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.16em;
 }
 
 .info-card ul {
-    width: min(100%, 760px);
+    width: 100%;
     margin: 16px auto;
-    padding-left: 1.2rem;
+    padding-left: 0;
+    list-style-position: inside;
     text-align: left;
+}
+
+.info-card br {
+    display: none;
 }
 
 .info-card li + li {
@@ -125,7 +145,7 @@ a {
 }
 
 .infographic {
-    width: min(100%, 760px);
+    width: 100%;
     margin: 28px auto;
 }
 
@@ -222,10 +242,6 @@ a {
 
     .content-grid {
         padding: 22px 18px 30px;
-    }
-
-    .info-card br {
-        display: none;
     }
 
     .page-nav {
