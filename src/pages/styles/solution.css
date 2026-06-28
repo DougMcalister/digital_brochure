@@ -1,0 +1,36 @@
+.solution-diagram {
+    width: min(100%, 920px);
+    margin: 28px auto 34px;
+    padding: 16px;
+    border-radius: 14px;
+    background: #f2f4f3;
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
+    color: #1d3324;
+    text-align: center;
+}
+
+.solution-diagram img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.solution-diagram figcaption {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+@media (max-width: 640px) {
+    .solution-diagram {
+        margin: 22px auto 28px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .solution-diagram img {
+        border-radius: 6px;
+    }
+}

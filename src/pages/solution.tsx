@@ -1,5 +1,9 @@
 import { Link } from "react-router"
 import Header from "../components/header"
+import clientProcess from "../assets/diagrams/Client_process.png"
+import dataPrivacy from "../assets/diagrams/Data_privacy.png"
+import procurementLaw from "../assets/diagrams/Procurement_law.png"
+import supplierProcess from "../assets/diagrams/Supplier_process.png"
 import "./styles/solution.css"
 
 export default function SolutionPage () {
@@ -43,6 +47,12 @@ export default function SolutionPage () {
                             can view previous years, export emissions reports, and compare year on year performance.
                         </li>
                     </ul>
+                    <figure className="solution-diagram">
+                        <img
+                            src={clientProcess}
+                            alt="Client process diagram for viewing suppliers, rankings, and summary reports"
+                        />
+                    </figure>
                     <br/>
                     <h2>Supplier Service</h2>
                     The supplier portal is the driver behind The Palmtree Portals data collection and processing<br/>
@@ -71,6 +81,12 @@ export default function SolutionPage () {
                             reduction technology, and total emissions produced.
                         </li>
                     </ul>
+                    <figure className="solution-diagram">
+                        <img
+                            src={supplierProcess}
+                            alt="Supplier process diagram for onboarding, activity logging, emissions invoicing, and inventory management"
+                        />
+                    </figure>
                     <br/>
                     <h2>Data Privacy</h2>
                     Considering the Palmtree Portals functionality the question remains "What is stopping my clients<br/>
@@ -81,6 +97,12 @@ export default function SolutionPage () {
                     The separation also allows for the emissions calculations to have an extra layer of integrity where<br/>
                     all calculations are done on the backend using emissions factor tables, this then only passes<br/>
                     numerical data back to the client and only the relevant work orders to the supplier.<br/>
+                    <figure className="solution-diagram">
+                        <img
+                            src={dataPrivacy}
+                            alt="Data privacy diagram showing separated client and supplier databases"
+                        />
+                    </figure>
                     <br/>
                     <h2>Local Procurement Law</h2>
                     This proposed local law outlines the criteria that suppliers to the City of Melville must adhere to<br/>
@@ -112,6 +134,12 @@ export default function SolutionPage () {
                     </ul>
                     The proposed local law is intended to attach real concequences to suppliers not taking<br/>
                     their sustainability responsibility seriously.<br/>
+                    <figure className="solution-diagram">
+                        <img
+                            src={procurementLaw}
+                            alt="Procurement law diagram showing adoption, reporting, deadlines, and breach handling"
+                        />
+                    </figure>
                     <br/>
                 </article>
             </section>
