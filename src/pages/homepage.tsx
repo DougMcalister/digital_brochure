@@ -10,10 +10,14 @@ export default function HomePage () {
             <section className="content-grid">
                 <article className="info-card">
                     <b>The Problem</b><br/>
-                    After declaring a climate emergency in June 2021 the City of<br/>
-                    Melville began working towards their climate initiative of net<br/>
-                    zero for the organisation by 2030 and net zero across the city<br/>
+                    After declaring a climate emergency in June 2021 the City of< br/>
+                    Melville began working towards their climate initiative of net <br/>
+                    zero for the organisation by 2030 and net zero across the city <br/>
                     and community by 2050.<br/>
+                    Our solution the <b>Palmtree Portal</b> will ensure accuracy and <br/>
+                    integrity for scope three emissions reporting by logging activity <br/>
+                    data directly from suppliers, while also removing the burden of <br/>
+                    administrative overhead through our privelaged calculation model.<br/><br/>
                     
                 </article>
             </section>
@@ -25,7 +29,7 @@ export default function HomePage () {
                     </div>
                     <div className="brochure-card-content">
                         <h1>Scope 3 Emissions</h1>
-                        <p>What exactly are scope 3 emissions and why are they so hard to track</p>
+                        <p>What exactly are scope 3 emissions and why are they so hard to track?</p>
                     </div>
                 </Link>
 
