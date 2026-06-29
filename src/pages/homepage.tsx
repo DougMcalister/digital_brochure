@@ -1,6 +1,10 @@
 import { Link } from "react-router"
 import Header from "../components/header"
 import "./styles/homePage.css"
+import ScopeThreePNG from "../assets/icons/scope-three-card.png"
+import SolutionPNG from "../assets/icons/solution-card.png"
+import ImplementationPNG from "../assets/icons/implementation-card.png"
+import ApplicationPNG from "../assets/icons/applications-card.png"
 
 export default function HomePage () {
     return (
@@ -18,14 +22,14 @@ export default function HomePage () {
                     integrity for scope three emissions reporting by logging activity <br/>
                     data directly from suppliers, while also removing the burden of <br/>
                     administrative overhead through our privelaged calculation model.<br/><br/>
-                    
+
                 </article>
             </section>
 
             <section className="home-frame" aria-label="Brochure pages">
                 <Link to="/scope-three" className="brochure-card">
                     <div className="brochure-card-image">
-                        {/* Picture area: add the Client Systems image here above the text. */}
+                        <img src={ScopeThreePNG} alt="Scope Three Emissions"/>
                     </div>
                     <div className="brochure-card-content">
                         <h1>Scope 3 Emissions</h1>
@@ -35,7 +39,7 @@ export default function HomePage () {
 
                 <Link to="/solution" className="brochure-card">
                     <div className="brochure-card-image">
-                        {/* Picture area: add the Supplier Systems image here above the text. */}
+                        <img src={SolutionPNG} alt="Solution"/>
                     </div>
                     <div className="brochure-card-content">
                         <h1>Our Solution</h1>
@@ -45,7 +49,7 @@ export default function HomePage () {
 
                 <Link to="/implementation" className="brochure-card">
                     <div className="brochure-card-image">
-                        {/* Picture area: add the Backend Logic image here above the text. */}
+                        <img src={ImplementationPNG} alt="Solution Implementation"/>
                     </div>
                     <div className="brochure-card-content">
                         <h1>Implementation</h1>
@@ -55,7 +59,7 @@ export default function HomePage () {
 
                 <Link to="/application" className="brochure-card">
                     <div className="brochure-card-image">
-                        {/* Picture area: add the Backend Logic image here above the text. */}
+                        <img src={ApplicationPNG} alt="Further Applications"/>
                     </div>
                     <div className="brochure-card-content">
                         <h1>Application</h1>

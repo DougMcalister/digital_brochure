@@ -28,7 +28,7 @@
     flex-direction: column;
     overflow: hidden;
     border: 1px solid rgba(38, 50, 56, 0.18);
-    border-radius: 8px;
+    border-radius: 10%;
     background: #3f874a;
     color: #f2f4f3;
     text-decoration: none;
@@ -49,9 +49,22 @@
 }
 
 .brochure-card-image {
+    aspect-ratio: 16 / 9;
     min-height: 132px;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(135deg, rgba(216, 237, 247, 0.28), rgba(47, 111, 62, 0.45));
     border-bottom: 1px solid rgba(38, 50, 56, 0.14);
+    border-radius: 10%;
+}
+
+.brochure-card-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .brochure-card-content {
@@ -98,6 +111,7 @@
 
     .brochure-card-image {
         min-height: 112px;
+        padding: 10px;
     }
 
     .brochure-card-content {
