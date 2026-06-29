@@ -212,6 +212,48 @@ a {
     pointer-events: auto;
 }
 
+.dev-grid {
+  display: grid;
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  padding: 26px 28px 36px;
+  background: #2f6f3e;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 10px;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dev-card {
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: #2f6f3e;;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.name-header {
+  margin-top: 0;
+}
+
+.info {
+  line-height: 1.6;
+}
+
+/* Two columns on tablets */
+@media (max-width: 900px) {
+  .dev-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* One column on phones */
+@media (max-width: 600px) {
+  .dev-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 640px) {
     .site-header {
         min-height: 82px;

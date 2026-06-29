@@ -67,6 +67,58 @@ export default function HomePage () {
                     </div>
                 </Link>
             </section>
+            <div className="dev-grid">
+                <div className="dev-card">
+                    <h2 className="name-header">
+                        John Mottershead
+                    </h2>
+                    <p className="info">
+                        P: 0418 910 816 <br/>
+                        E: 20167684@student.curtin.edu.au<br/>
+                           johnwmottershead@outlook.com
+                    </p>
+                </div>
+                <div className="dev-card">
+                    <h2 className="name-header">
+                        Madeleine Daley
+                    </h2>
+                    <p className="info">
+                        E: madeleine.daley@student.curtin.edu.au
+                    </p>
+                </div>
+                <div className="dev-card">
+                    <h2 className="name-header">
+                        Zachary Sheilds
+                    </h2>
+                    <p className="info">
+                        E: zachary.sheilds@student.curtin.edu.au
+                    </p>
+                </div>
+                <div className="dev-card">
+                    <h2 className="name-header">
+                        James Lee
+                    </h2>
+                    <p className="info">
+                        E: james.lee@student.curtin.edu.au
+                    </p>
+                </div>
+                <div className="dev-card">
+                    <h2 className="name-header">
+                        Renszo Roquino
+                    </h2>
+                    <p className="info">
+                        E: renszo.roquino@student.curtin.edu.au
+                    </p>
+                </div>
+                <div className="dev-card">
+                    <h2 className="name-header">
+                        Himangi
+                    </h2>
+                    <p className="info">
+                        E: himangni@student.curtin.edu.au
+                    </p>
+                </div>
+            </div>
         </main>
     );
 }
